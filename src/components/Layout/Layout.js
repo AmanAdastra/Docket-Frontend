@@ -1,8 +1,8 @@
-import Navbar from './Navbar/Navbar';
 import React from 'react'
 import { Outlet } from "react-router-dom"
 import { Grid,Box } from "@mui/material";
 import styles from './layout.module.css'
+import Navbar from '../Navbar/Navbar';
 
 const Layout = () => {
   return (

@@ -1,6 +1,6 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import CssBaseline from '@mui/material/CssBaseline';
-import Layout from "./components/pages/Layout";
+import Layout from "./components/Layout/Layout";
 import Playground from "./components/pages/Playground/Playground";
 import Settings from "./components/pages/Settings/Settings";
 import Calendar from "./components/pages/Calendar/Calendar";

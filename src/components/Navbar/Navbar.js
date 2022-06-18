@@ -32,7 +32,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faCirclePlay} />
               </NavLink>
             </div>
-            <div className='navbar_item'>
+            <div className={styles.navbar_item}>
               <NavLink
                to="/progressreport"
                style={({ isActive }) => {

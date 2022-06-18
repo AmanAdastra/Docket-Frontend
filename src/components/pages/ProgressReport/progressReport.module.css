@@ -8,3 +8,7 @@ h1{
     margin-bottom: 2rem;
 }
 
+.progressReport_heading{
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
