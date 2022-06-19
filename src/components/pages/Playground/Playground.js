@@ -7,6 +7,8 @@ const Playground = () => {
       <div className={styles.playground_heading}>
         <h1>Playground</h1>
       </div>
+      <div className={styles.playground_body}>
+        </div>
     </>
   )
 }

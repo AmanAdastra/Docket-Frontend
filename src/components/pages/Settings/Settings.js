@@ -6,6 +6,8 @@ const Settings = () => {
       <div className={styles.settings_heading}>
       <h1>Settings</h1>
       </div>
+      <div className={styles.settings_body}>
+      </div>
     </>
     )
 }

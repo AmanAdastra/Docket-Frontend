@@ -10,6 +10,8 @@ const Calendar = () => {
           Calendar
         </h1>
       </div>
+      <div className={styles.calendar_body}>
+        </div>
     </>
   )
 }

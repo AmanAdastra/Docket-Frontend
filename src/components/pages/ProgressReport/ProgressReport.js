@@ -7,7 +7,10 @@ const ProgressReport = () => {
     <div className={styles.progressReport_heading}>
       <h1>Progress</h1>
     </div>
+    <div className={styles.progressReport_body}>
+      </div>
     </>
+
   )
 }
 

@@ -10,6 +10,8 @@ const Dashboard = () => {
             Dashboard
           </h1>
       </div>
+      <div className={styles.dashboard_body}>
+        </div>
     </>
   )
 }
