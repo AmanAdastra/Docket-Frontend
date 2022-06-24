@@ -1,22 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
-
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 33px;
     font-weight: 500;
     padding:12px ;
     margin: 0;
-    margin-bottom: 2rem;
 }
+
 .dashboard_heading {
     border-radius: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
 }
 .dashboard_body{
+    display: flex;
     border-radius: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-top: 5px;
     height: 75vh;
-
 }
+
+.shortcut_container{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.shortcut_items{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 10px;
+}
+.shortcut-icons{
+    border-radius: 25%;
+    height: 36px;
+    width: 36px;
+    margin:5px;
+	filter: drop-shadow(0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5));
+}
+.shortcut-icons:hover{
+    border-radius: 25%;
+    height: 36px;
+    width: 36px;
+    margin:5px;
+	filter: drop-shadow(0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.5));
+    transform: scale(1.1);
+}
+.create_shortcut{
+    height: 40px;
+    width: 36px;
+    
+}
+
